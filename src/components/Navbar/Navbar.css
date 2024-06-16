@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-body-white .navbar .navbar-expand-lg .navbar-light {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.SK-Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SK-Navbar .SK-Link .nav-link a {
+    padding: 0;
+}
+
+.navbar-expand-lg,
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    padding-left: 70px;
+}
+
+.SK-Link h5 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Exo 2", sans-serif;
+    color: black;
+    padding: 26.5px 20px;
+    margin: 0;
+}
+
+.SK-LinkDropdown a {
+    text-decoration: none;
+}
+
+.SK-Navbar .SK-LinkDropdown a {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Exo 2", sans-serif;
+    color: black;
+}
+
+#collapsible-nav-dropdown {
+    padding: 26.5px 20px !important;
+}
+
+#collapsible-nav-dropdown .SK-Navbar .SK-LinkLogin a {
+    text-decoration: none;
+}
+
+.d-flex .SK-LinkLogin {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    padding: 22.5px 0;
+    color: black;
+    padding: 26.5px 0;
+}
+
+h5:hover,
+h5:focus,
+.SK-LinkLogin:hover,
+.SK-LinkLogin:focus,
+.SK-LinkDropdown a:hover,
+.SK-LinkDropdown a:focus {
+    background: #F5F5F5;
+    color: #FF782D !important;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.d-flex {
+    align-items: center;
+    gap: 10px;
+}
+
+.d-flex .SK-Search-icon {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 1837px) {
+
+    .SK-Link h5,
+    .SK-Navbar .SK-LinkDropdown a {
+        font-size: 15px;
+    }
+
+    .d-flex .SK-Search-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .SK-LogoImg {
+        width: 150px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1366px) {
+
+    .SK-Link h5,
+    .SK-Navbar .SK-LinkDropdown a {
+        font-size: 14px;
+    }
+
+    .d-flex .SK-LinkLogin {
+        font-size: 16px;
+    }
+
+    .d-flex .SK-Search-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .SK-LogoImg {
+        width: 110px;
+    }
+}
+
+@media (max-width: 992px) {
+    .collapse:not(.show) {
+        display: none;
+    }
+}
