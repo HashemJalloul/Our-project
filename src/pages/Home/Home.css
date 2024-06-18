@@ -2,4 +2,86 @@
     width: 100%;
     height: 100vh;
     background-image: url('./../../../public/imges/Image3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    position: relative;
 }
+.ek-hero-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 520px;
+    height:  262px;
+    top: 219px;
+    left: 100px;
+    gap: 24px;
+}
+.ek-hero .ek-hero-content .ek-hero-title {
+    width: 504px;
+    height: 116px;
+    font-family: Exo;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    color: #000;
+}
+.ek-p-hero {
+    width: 504px;
+    height: 54px;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #555555;
+}
+.ek-btn-hero {
+    background-color: #FF782D;
+    width:  170px;
+    height:  48px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 24px;
+    border: 0;
+    transition: 0.25s ease-in-out;
+}
+.ek-btn-hero:hover {
+    background-color: #e05000
+}
+.ek-btn-hero a {
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .ek-hero {
+        height: 80vh;
+        background-image: url('./../../../public/imges/Image3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top left;
+    }
+    .ek-hero-content {
+        position: absolute;
+        width: 80%;
+        margin: 0 auto;
+        top: 20px;
+        left: 10px;
+        justify-content: space-between;
+    }
+    .ek-hero .ek-hero-content .ek-hero-title {
+        width: 100%;
+        height: max-content;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .ek-p-hero {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+
+
