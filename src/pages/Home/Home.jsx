@@ -1,15 +1,20 @@
 import './Home.css'
 import Category from '../../components/Category/Category'
+import Count from './../../components/Count/Count'
 import { Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import CardsCourses from '../../components/CardsCourses/CardsCourses'
 import allCardsCourses from './../../Data/AllCardsCourses'
+import infocards from './../../Data/InfoCards'
 
 
 export default function Home() {
   const cardsCourses = allCardsCourses.map(card => {
     return <CardsCourses key={card.id} image={card.image} head4={card.head4} price={card.price} Free={card.Free} />
   })
+  const info = infocards.map(card => {
+    return <Count key={card.id} title={card.title} content={card.content} />
+  });
   return (
     <>
       <section className='ek-hero'>
@@ -34,8 +39,7 @@ export default function Home() {
         <div className="ek-wrapper-featuresCourses">
           {cardsCourses}
         </div>
-
-        <div className="ek-getMore">
+        <section className="ek-getMore">
           <div className="ek-getMore-content">
             <div className="ek-getMore-title">
               <h5>GET MORE POWER FROM</h5>
@@ -46,7 +50,10 @@ export default function Home() {
               <button className='ek-btn-getmore'><a href="">Explorer course</a></button>
             </div>
           </div>
-        </div>
+        </section>
+        <section className='ek-info-wrapper'>
+            {info}
+        </section>
       </Container>
     </>
   )

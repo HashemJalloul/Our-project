@@ -229,4 +229,16 @@
         gap: 20px;
     }
 }
+.ek-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 80px;
+}
 
+@media (min-width: 300px) and  (max-width: 991px) {
+    .ek-info-wrapper {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
