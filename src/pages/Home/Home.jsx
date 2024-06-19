@@ -21,8 +21,8 @@ export default function Home() {
         </div>
       </section>
       <Category />
-    <Container>
-    <div className="ek-top-features-courses">
+      <Container>
+        <div className="ek-top-features-courses">
           <div className="ek-title">
             <h2>Featured courses</h2>
             <p>Explore our Popular Courses</p>
@@ -34,7 +34,20 @@ export default function Home() {
         <div className="ek-wrapper-featuresCourses">
           {cardsCourses}
         </div>
-    </Container>
+
+        <div className="ek-getMore">
+          <div className="ek-getMore-content">
+            <div className="ek-getMore-title">
+              <h5>GET MORE POWER FROM</h5>
+              <h2>LearnPress Add-Ons</h2>
+            </div>
+            <div>
+              <p>The next level of LearnPress - LMS WordPress Plugin. More Powerful, Flexible and Magical Inside.</p>
+              <button className='ek-btn-getmore'><a href="">Explorer course</a></button>
+            </div>
+          </div>
+        </div>
+      </Container>
     </>
   )
 }

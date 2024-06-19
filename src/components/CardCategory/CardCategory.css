@@ -50,7 +50,7 @@
     line-height: 27px;
     color: #555555;
 }
-@media (min-width: 320px) and (max-width: 991px) {
+@media (min-width: 300px) and (max-width: 991px) {
     .ek-allCategoryItems {
         padding-top: 10px;
         justify-content: center;
