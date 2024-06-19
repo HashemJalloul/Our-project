@@ -53,9 +53,6 @@
 @media (min-width: 320px) and (max-width: 991px) {
     .ek-allCategoryItems {
         padding-top: 10px;
-        display: flex;
-        flex-wrap: wrap;
         justify-content: center;
-        gap: 20px;
     }
 }
