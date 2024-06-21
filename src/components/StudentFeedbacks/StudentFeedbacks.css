@@ -1,0 +1,142 @@
+.SK-StudentFeedbacks {
+    width: 100%;
+    height: 534.8px;
+    margin-block: 90px;
+}
+.SK-StudentFeedbacks-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.SK-StudentFeedbacks-title h2 {
+    font-family: Exo;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #000000;
+    text-align: center;
+}
+.SK-StudentFeedbacks-title p {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;
+    text-align: center;
+}
+.SK-StudentFeedbacks-cards { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.SK-StudentFeedbacks-card {
+    width: 300px;
+    height: 407.8px;
+    border-radius: 20px;
+    border: 1px solid #EAEAEA;
+    transition: 0.5s ease;
+    padding: 40px 30px;
+}
+.SK-StudentFeedbacks-card:hover,
+.SK-StudentFeedbacks-card:focus{
+    transform: translate(0, -16px);
+    box-shadow: 0px 4px 20px 0px #0000001A;
+}
+.SK-StudentFeedbacks-card .SK-FeedbackCard-Image {
+    width: 35.5px;
+    height: 29.8px;
+    margin-bottom: 20px;
+}
+.SK-StudentFeedbacks-Body {
+    width: 240px;
+    height: 238px;
+    margin-bottom: 30px;
+}
+.SK-StudentFeedbacks-Body p {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.SK-StudentFeedbacks-Name h4 {
+    font-family: Exo;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.SK-StudentFeedbacks-Name p {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;
+}
+
+@media screen and (min-width: 1201px) {
+    .SK-StudentFeedbacks {
+        margin-bottom: 510px;
+    }
+    .SK-StudentFeedbacks-cards {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width: 1025px) and  (max-width: 1200px) {
+    .SK-StudentFeedbacks {
+        margin-bottom: 500px;
+    }
+    .SK-StudentFeedbacks-cards {
+        gap: 15px;
+    }
+    .SK-StudentFeedbacks-title h2 {
+        font-size: 28px;
+    }
+    .SK-StudentFeedbacks-cards {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 769px) and  (max-width: 1024px) {
+    .SK-StudentFeedbacks {
+        margin-bottom: 500px;
+    }
+    .SK-StudentFeedbacks-title h2 {
+        font-size: 25px;
+    }
+    .SK-StudentFeedbacks-cards {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 481px) and  (max-width: 768px) {
+    .SK-StudentFeedbacks-title h2 {
+        font-size: 23px;
+    }
+    .SK-StudentFeedbacks {
+        margin-bottom: 1400px;
+    }
+    .SK-StudentFeedbacks-cards {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 320px) and  (max-width: 480px) {
+    .SK-StudentFeedbacks-title h2 {
+        font-size: 21px;
+    }
+    .SK-StudentFeedbacks {
+        margin-bottom: 1400px;
+    }
+
+}
+
