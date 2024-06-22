@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.MA-CourseSingle-Hero {
+  width: 1366px;
+  height: 250px;
+  background-color: #000000;
+}
+
+
+.MA-CourseSingle-Detail {
+  width: 917.78125px;
+  height: 874px;
+  gap: 40px;
+  margin: 0 auto;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 90px;
+
+  padding: 0px 440px 0px 0px;
+
+  opacity: 0px;
+}

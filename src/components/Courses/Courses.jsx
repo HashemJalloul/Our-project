@@ -3,6 +3,10 @@ import "./Courses.css";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 import { Card, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
+import Sidebar from "../Sidebar/Sidebar";
+
 
 const Courses = () => {
   const courses = [
@@ -87,72 +91,75 @@ const Courses = () => {
           <h1 className="MA-title-courses-h1">All Courses</h1>
           {/* يوجد زر البحث */}
         </div>
+       
         <div className="MA-courses-cards">
           {/* cards start */}
           <Container>
             {courses.map((course) => (
-              <Card
-                key={course.id}
-                className="mb-3 MA-card"
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  border: "none",
-                }}
-              >
-                <div className="MA-img-card">
-                  <img
-                    alt=""
-                    variant="left"
-                    src={course.image}
-                    style={{ width: "291px", height: "auto" }}
-                  />
-                </div>
-
-                <div className="MA-card-left">
-                  <p className="MA-card-title">{course.author}</p>
-                  <h4 className="MA-card-body-h4">{course.title}</h4>
-                  <div className="MA-card-icons">
-                    <div>
-                      <img src="./imges/clock icon.png" alt="" />
-                      <p>{course.duration}</p>
-                    </div>
-                    <div>
-                      <img src="./imges/students icon.png" alt="" />
-                      <p>{course.students}</p>
-                    </div>
-                    <div>
-                      <img src="./imges/levels icon.png" alt="" />
-                      <p>{course.level}</p>
-                    </div>
-                    <div>
-                      <img src="./imges/lessons icon.png" alt="" />
-                      <p>{course.lessons}</p>
-                    </div>
+              <Link to="/CourseSingle">
+                <Card
+                  key={course.id}
+                  className="mb-3 MA-card"
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    border: "none",
+                  }}
+                >
+                  <div className="MA-img-card">
+                    <img
+                      alt=""
+                      variant="left"
+                      src={course.image}
+                      style={{ width: "291px", height: "250px" }}
+                    />
                   </div>
 
-                  <div className="MA-footer-card">
-                    <span>
-                      <p
-                        style={{
-                          width: "46px",
-                          height: "27px",
-                          fontFamily: "Jost",
-                          fontWeight: 400,
-                          fontSize: "18px",
-                          color: "#9D9D9D",
-                        }}
-                      >
-                        {course.price}
-                      </p>
-                      <a href={course.link}>Free</a>
-                    </span>
-                    <span className="MA-card-footer-view">
-                      <a href={course.link}>View more</a>
-                    </span>
+                  <div className="MA-card-left">
+                    <p className="MA-card-title">{course.author}</p>
+                    <h4 className="MA-card-body-h4">{course.title}</h4>
+                    <div className="MA-card-icons">
+                      <div>
+                        <img src="./imges/clock icon.png" alt="" />
+                        <p>{course.duration}</p>
+                      </div>
+                      <div>
+                        <img src="./imges/students icon.png" alt="" />
+                        <p>{course.students}</p>
+                      </div>
+                      <div>
+                        <img src="./imges/levels icon.png" alt="" />
+                        <p>{course.level}</p>
+                      </div>
+                      <div>
+                        <img src="./imges/lessons icon.png" alt="" />
+                        <p>{course.lessons}</p>
+                      </div>
+                    </div>
+
+                    <div className="MA-footer-card">
+                      <span>
+                        <p
+                          style={{
+                            width: "46px",
+                            height: "27px",
+                            fontFamily: "Jost",
+                            fontWeight: 400,
+                            fontSize: "18px",
+                            color: "#9D9D9D",
+                          }}
+                        >
+                          {course.price}
+                        </p>
+                        <a href={course.link}>Free</a>
+                      </span>
+                      <span className="MA-card-footer-view">
+                        <a href={course.link}>View more</a>
+                      </span>
+                    </div>
                   </div>
-                </div>
-              </Card>
+                </Card>
+              </Link>
             ))}
           </Container>
           {/* cards End */}
@@ -163,6 +170,8 @@ const Courses = () => {
             </Stack>
           </div>
         </div>
+        <Sidebar  />
+        
       </div>
     </>
   );
