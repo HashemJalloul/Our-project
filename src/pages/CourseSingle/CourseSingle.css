@@ -25,3 +25,23 @@
 
   opacity: 0px;
 }
+
+.MA-course-single-form{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+.MA-course-single-form .MA-course-single-form-input1{
+  min-width: 250px;
+  margin-right: 15px;
+}
+.MA-course-single-form .MA-course-single-form-input2{
+  min-width: 250px;
+  margin-left:  15px;
+}
+
+.MA-course-single-form-comments{
+  min-width: 604px;
+  min-height: 110px;
+  background-color: blueviolet;
+}

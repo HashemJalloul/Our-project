@@ -6,12 +6,13 @@ import "./TabCourseSingle.css";
 const TabCourseSingle = () => {
   return (
     <>
-      <div className="MA-Tabs-Coures-single">
+      <div className="MA-Tabs-Coures-single" >
         <Tabs
           defaultActiveKey="profile"
           id="fill-tab-example"
           className="mb-3"
           fill
+          
         >
           <Tab eventKey="Overview" title="Overview">
             <div className="MA-TAB-overview-content">

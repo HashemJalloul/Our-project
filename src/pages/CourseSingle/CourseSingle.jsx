@@ -3,6 +3,9 @@ import BasicBreadcrumbs from "../../components/BasicBreadcrumbs/BasicBreadcrumbs
 import "./CourseSingle.css";
 import TabCourseSingle from "../../components/TabCourseSingle/TabCourseSingle";
 
+import Form from "react-bootstrap/Form";
+import InputGroup from "react-bootstrap/InputGroup";
+
 const CourseSingle = () => {
   const courses = [
     {
@@ -95,9 +98,32 @@ const CourseSingle = () => {
           <div className="MA-CourseSingle-Detail">
             <TabCourseSingle />
             <div className="MA-TabCourseSingle-part2">
-
+              <h4>Leave a comment</h4>
+              <p>
+                Your email address will not be published. Required fields are
+                marked *
+              </p>
+              <InputGroup className="mb-3 MA-course-single-form">
+                <Form.Control
+                  aria-label="Name"
+                  placeholder="Name *"
+                  className="mb-3 MA-course-single-form-input1"
+                />
+                <Form.Control
+                  aria-label="Email"
+                  placeholder="Email *"
+                  className="mb-3 MA-course-single-form-input2"
+                />
+              </InputGroup>
+              <textarea
+                className="MA-course-single-form-comments"
+                placeholder="comments"
+              ></textarea>
+              <input type="checkbox" />
+              <label style={{ marginLeft: "10px" }} htmlFor="">
+                Save my name, email in this brower for the next time I comment
+              </label>
             </div>
-
           </div>
         </div>
       </div>
