@@ -8,6 +8,7 @@ import allCardsCourses from './../../Data/AllCardsCourses'
 import infocards from './../../Data/InfoCards'
 
 
+
 export default function Home() {
   const cardsCourses = allCardsCourses.map(card => {
     return <CardsCourses key={card.id} image={card.image} head4={card.head4} price={card.price} Free={card.Free} />
