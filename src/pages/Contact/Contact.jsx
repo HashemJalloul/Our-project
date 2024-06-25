@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import BasicBreadcrumbs from "../../components/BasicBreadcrumbs/BasicBreadcrumbs";
 import "./Contact.css";
 
@@ -13,8 +15,10 @@ export default function Contact() {
               Cras massa at odio donec faucibus in. Vitae pretium massa dolor
               ullamcorper lectus elit quam.
             </p>
+            <FontAwesomeIcon icon="fa-solid fa-phone" style={{color: "##FF782D",}} />
             <p>
-              Phone: <a href="tel:(123) 456 7890">(123) 456 7890</a>
+            
+              Phone  <a href="tel:(123) 456 7890">(123) 456 7890</a>
             </p>
             <p>
               Email:{" "}

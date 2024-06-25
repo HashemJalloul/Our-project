@@ -1,23 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100..900&family=Jost:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100..900&family=Jost:ital,wght@0,500;1,500&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 .MA-Cousres {
+  /* min-width: 917.78125px;
+  min-height: 1300px; */
   width: 917.78125px;
-  height: 1811px;
+  height: max-content;
   gap: 30px;
   margin: 0 auto;
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
   margin-top: 60px;
+  margin-bottom: 50px;
   position: relative;
 }
 .MA-Cousres .MA-top-courses {
   width: 704px;
   height: 43px;
-
   display: flex;
   background-color: azure;
   justify-content: space-between;
@@ -28,27 +35,22 @@
   font-weight: 600;
   line-height: 43.2px;
   text-align: left;
-
   width: 190px;
   height: 43px;
-
   opacity: 0px;
 }
 
 .MA-Cousres .MA-courses-cards {
-  width: 704px;
-  height: 1728px;
+  width: 699px;
+  height: 1400px;
+  /* height: 465px; */
   gap: 40px;
   /* background-color: blue; */
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  /* position: absolute; */
 }
-.MA-Cousres .MA-courses-cards .MA-card {
-  height: 250px;
-  border-radius: 20px;
-  border: 1px solid black;
-  /* gap: 30px; */
-  cursor: pointer;
-}
+
 .MA-pagination-courses {
   width: 204px;
   height: 48px;
@@ -56,84 +58,50 @@
   margin: 0 auto;
   position: absolute;
   bottom: 0;
-  left: 245px;
-}
-/* cards design */
-/* ExampleCard.css */
-.MA-img-card img {
-  width: 291px;
-  height: auto;
+  left: 285px;
 }
 
-.MA-card-left {
-  padding: 20px;
+
+/* responsive */
+
+
+
+
+
+@media (max-width: 991px) {
+ 
+  .MA-wrapper-featuresCourses {
+      justify-content: center;
+      align-items: center;
+  }
+
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .MA-wrapper-featuresCourses {
+      justify-content: space-between;
+      align-items: center;
+  }
 }
 
-.MA-card-title {
-  color: #6c757d;
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .MA-wrapper-featuresCourses {
+    justify-content: space-between;
+    align-items: center;
+}
 }
 
-.MA-card-body-h4 {
-  font-size: 1.25rem;
-  font-weight: 500;
+
+@media (min-width: 300px) and  (max-width: 991px) {
+  .MA-wrapper-featuresCourses {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 }
 
-.MA-card-icons {
-  display: flex;
-  gap: 20px; /* Adjust the gap as needed */
-  margin-top: 10px; /* Optional: Add margin to separate from the title */
-}
 
-.MA-card-icons div {
-  display: flex;
-  align-items: center;
-}
-
-.MA-card-icons img {
-  margin-right: 5px;
-  width: 13.33px;
-  height: 13.33px;
-  top: 1.33px;
-  left: 1.33px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.MA-footer-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 15px; /* Optional: Add margin to separate from the icons */
-}
-
-.MA-footer-card span:first-child {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.MA-footer-card span.MA-card-footer-view {
-  margin-left: auto;
-}
-
-.MA-card-footer-view a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.MA-card-footer-view a:hover {
-  text-decoration: underline;
-}
-
-.x {
-  background-color: black;
-}
-
-.MA-courses-sidebar {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: #007bff;
-  width: 212px;
-  height: 1104px;
-}
