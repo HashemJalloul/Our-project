@@ -97,7 +97,7 @@ hr {
 .MA-wrapper-featuresCourses {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
     padding-bottom: 20px;
     width: 900px;
     /* background-color: #55BE24; */
