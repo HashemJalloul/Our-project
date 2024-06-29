@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.MA-Tabs-Coures-single {
+  /* background-color: rgb(0, 255, 34); */
+  width: 890px;
+  height: 448px;
+  justify-content: space-between;
+}
+
+.MA-Tabs-Coures-single Tab{
+  width: 100px;
+}
+
+.MA-TabCourseSingle-part2 {
+  width: 604px;
+  height: 336px;
+  background-color: black;
+}
+
+.MA-Tabs-Coures-single .MA-TAB-overview-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 604px;
+    padding: 30px;
+}
+.MA-Tabs-Coures-single .MA-TAB-overview-content .MA-TAB-overview-content1{
+   margin: 14px 0;
+   
+}
