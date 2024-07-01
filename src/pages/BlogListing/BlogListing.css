@@ -1,0 +1,111 @@
+.ek-Blogs {
+    margin-right: 315px;
+    margin-left: 315px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ek-blogs-partone {
+    display: flex;
+    flex-direction: column;
+}
+
+.ek-top-blogs {
+    width: 990px ;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ek-Blogs .ek-top-blogs .ek-title-blogs-h1 {
+    font-family: "Exo";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: left;
+    width: 190px;
+    height: 43px;
+    opacity: 0px;
+}
+
+.searchinput {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ek-top-blogs .searchinput .searchIcon {
+    width: 20px;
+    position: absolute;
+    right: 79px;
+} 
+
+.ek-top-blogs .searchinput img {
+    width: 20px;
+} 
+
+.ek-top-blogs .searchinput input {
+    width: 270px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 4px;
+}
+.MA-pagination-courses {
+    margin: 30px auto;
+}
+.SK-LatestArticles-cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+.SK-LatestArticles-card {
+    width: 480px;
+    height: 490px;
+    border-radius: 20px;
+    border: 1px solid #EAEAEA;
+    transition: 0.5s ease;
+}
+.SK-LatestArticles-card:hover,
+.SK-LatestArticles-card:focus{
+    transform: translate(0, -16px);
+    box-shadow: 0px 4px 20px 0px #0000001A;
+}
+.SK-CardArticle-Title h4 {
+    font-family: Exo;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.SK-CardArticle-Title h4:hover,
+.SK-CardArticle-Title h4:focus{
+    color: #FF782D;
+}
+.SK-CardArticle-Date {
+    display: flex;
+    justify-content: flex-start;
+    gap: 9.33px;
+}
+.SK-CardArticle-Date img {
+    width: 13.33px;
+    height: 14.67px;
+    margin-top: 5px;
+}
+.SK-CardArticle-Date p {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+}
+.SK-CardArticle-Body p {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;
+}
