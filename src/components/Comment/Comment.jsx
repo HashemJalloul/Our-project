@@ -4,7 +4,8 @@ import './Comment.css';
 const Comment = ({ name, date, text }) => {
   return (
     <div className="comment">
-      <img src="https://via.placeholder.com/50" alt="avatar" className="avatar" />
+      
+      <img src="/imges/girl.png" alt="avatar" className="avatar" />
       <div className="comment-body">
         <div className="comment-header">
           <span className="name">{name}</span>
