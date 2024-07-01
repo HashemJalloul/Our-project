@@ -57,7 +57,7 @@ const CourseSingle = () => {
               </div>
             </div>
             <div className="MA-CourseSingle-Hero-card">
-              <img src="/imges/Image (2).png" alt="" />
+              <img src="/imges/Image-6.png" alt="img" />
               <div className="MA-CourseSingle-Hero-card-part2">
                 <div className="MA-CourseSingle-Hero-card-part2-price">
                   <span style={{}}>$59.0</span>
@@ -93,9 +93,10 @@ const CourseSingle = () => {
                 placeholder="comments"
               ></textarea>
               <input type="checkbox" />
-              <label style={{ marginLeft: "10px" }} htmlFor="">
+              <label style={{ marginLeft: "10px" ,margin:"20px 0" }} htmlFor="">
                 Save my name, email in this brower for the next time I comment
               </label>
+              <button style={{display:"block",width:"170px",height:"48px", backgroundColor:"#FF782D",color:"white",padding:"10px 24px 10px 24px",borderRadius:"24px"}}>Posts comment</button>
             </div>
           </div>
         </div>
