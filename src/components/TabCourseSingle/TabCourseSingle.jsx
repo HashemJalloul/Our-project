@@ -5,6 +5,7 @@ import "./TabCourseSingle.css";
 import { Style } from "@mui/icons-material";
 
 import Accordion from "react-bootstrap/Accordion";
+import CommentsSection from "../CommentsSection/CommentsSection";
 
 const TabCourseSingle = () => {
   return (
@@ -52,7 +53,10 @@ const TabCourseSingle = () => {
                   <div className="MA-Accordion1">
                     {
                       <Accordion defaultActiveKey="0">
-                        <Accordion.Item eventKey="0" style={{margin:"10px 0"}}>
+                        <Accordion.Item
+                          eventKey="0"
+                          style={{ margin: "10px 0" }}
+                        >
                           <Accordion.Header>
                             <span>Lessons with video content</span>
                             {/* <p style={{display:"flex",alignItems:"center",justifyContent:"center"}}>Lessons with video content</p> */}
@@ -63,7 +67,10 @@ const TabCourseSingle = () => {
                           </Accordion.Header>
                           <Accordion.Body></Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey="1" style={{margin:"10px 0"}}>
+                        <Accordion.Item
+                          eventKey="1"
+                          style={{ margin: "10px 0" }}
+                        >
                           <Accordion.Header>
                             <span>Lessons with video content</span>
                             {/* <p style={{display:"flex",alignItems:"center",justifyContent:"center"}}>Lessons with video content</p> */}
@@ -78,7 +85,10 @@ const TabCourseSingle = () => {
                             <div>c</div>
                           </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey="2" style={{margin:"10px 0"}}>
+                        <Accordion.Item
+                          eventKey="2"
+                          style={{ margin: "10px 0" }}
+                        >
                           <Accordion.Header>
                             <span>Lessons with video content</span>
                             {/* <p style={{display:"flex",alignItems:"center",justifyContent:"center"}}>Lessons with video content</p> */}
@@ -89,7 +99,10 @@ const TabCourseSingle = () => {
                           </Accordion.Header>
                           <Accordion.Body></Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey="3" style={{margin:"10px 0"}}>
+                        <Accordion.Item
+                          eventKey="3"
+                          style={{ margin: "10px 0" }}
+                        >
                           <Accordion.Header>
                             <span>Lessons with video content</span>
                             {/* <p style={{display:"flex",alignItems:"center",justifyContent:"center"}}>Lessons with video content</p> */}
@@ -122,13 +135,128 @@ const TabCourseSingle = () => {
             </div>
           </Tab>
           <Tab eventKey="Instructor" title="Instructor">
-            Tab content for Instructor
+            <div className="MA-tab-Instructor">
+              <div className="MA-tab-Instructor-part1">
+                <img src="/imges/Frame 3871.png" alt="img" />
+                <div className="info">
+                  <h4
+                    style={{
+                      width: "99px",
+                      height: "24px",
+                      fontFamily: "EXO",
+                      fontSize: "20px",
+                      lineHeight: "24px",
+                    }}
+                  >
+                    ThimPress
+                  </h4>
+                  <p>
+                    LearnPress is a comprehensive WordPress LMS Plugin for
+                    WordPress. This is one of the best WordPress LMS Plugins
+                    which can be used to easily create & sell courses online.
+                  </p>
+                  <img
+                    src="/imges/students icon.png"
+                    alt="img"
+                    style={{ width: "16px", height: "16px" }}
+                  />
+                  <span></span>
+                  <span>156 Students</span>
+                  <div>
+                    <img
+                      src="/imges/students icon.png"
+                      alt="img"
+                      style={{ width: "16px", height: "16px" }}
+                    />
+                    <span></span>
+                    <span>156 Students</span>
+                  </div>
+                </div>
+              </div>
+              <div className="MA-tab-Instructor-part2">
+                <p>
+                  LearnPress is a comprehensive WordPress LMS Plugin for
+                  WordPress. This is one of the best WordPress LMS Plugins which
+                  can be used to easily create & sell courses online.
+                </p>
+              </div>
+              <div className="MA-tab-Instructor-part3">
+                
+                <div className="social-media">
+                <span>Follow:</span>
+                  <a href="#">
+                    <img src="/imges/Icon.png" />
+                  </a>
+                  <a href="#">
+                    <img src="/imges/Icon-1.png" />
+                  </a>
+                  <a href="#">
+                    <img src="/imges/Icon-2.png" />
+                  </a>
+                  <a href="#">
+                    <img src="/imges/Icon-3.png" />
+                  </a>
+                  <a href="#">
+                    <img src="/imges/Icon-4.png" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </Tab>
           <Tab eventKey="FAQs" title="FAQs">
-            Tab content for FAQs
+          <Accordion defaultActiveKey="0">
+      <Accordion.Item eventKey="0">
+        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="2">
+        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="3">
+        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
           </Tab>
           <Tab eventKey="Reviews" title="Reviews">
-            Tab content for Reviews
+            <CommentsSection />
           </Tab>
         </Tabs>
       </div>

@@ -70,3 +70,29 @@
   width: 200px;
   /* margin-left: 5px; */
 }
+
+
+/* ------------------instractor-------------------- */
+.MA-tab-Instructor-part1{
+  width:  640px;
+/* height: 189px; */
+gap: 24px;
+opacity: 0px;
+/* background-color: aqua; */
+display: flex;
+
+
+}
+.MA-tab-Instructor-part1 img{
+  width: 140px;height: 140px;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+ 
+}
+.MA-tab-Instructor-part1 h4{
+  padding-top: 7px;
+}
+.MA-tab-Instructor-part2{
+padding: 10px 0;
+}

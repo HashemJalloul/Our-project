@@ -1,0 +1,42 @@
+/* src/components/CommentsSection.css */
+
+.comments-section {
+    width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .rating-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .rating-score {
+    text-align: center;
+  }
+  
+  .score {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .stars {
+    font-size: 24px;
+    color: #ffc107;
+  }
+  
+  .rating-count {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .rating-bars {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .comments {
+    margin-top: 20px;
+  }
