@@ -80,9 +80,8 @@
   /* background-color: aqua; */
   top: 123px;
   right: 170px;
-  border: 1px solid #EAEAEA ;
+  border: 1px solid #eaeaea;
   border-radius: 20px;
-  
 }
 .MA-CourseSingle-Hero
   .MA-CourseSingle-Hero-card
@@ -99,18 +98,16 @@
   .MA-CourseSingle-Hero-card-part2-price {
   padding: 0 20px;
   display: flex;
-  
 }
 .MA-CourseSingle-Hero-card-part2 button {
-  min-width:  127px;
-  height:48px;
+  min-width: 127px;
+  height: 48px;
   padding: 10px 24px 10px 24px;
   gap: 10px;
-  border-radius: 24px ;
+  border-radius: 24px;
   opacity: 0px;
-  background-color: #FF782D;
+  background-color: #ff782d;
   color: white;
-  
 }
 .MA-CourseSingle-Hero .MA-CourseSingle-Hero-card img {
   width: 100%;
@@ -152,10 +149,27 @@
   /* background-color: blueviolet; */
   border: 1px solid #d3d0d0;
   border-radius: 8px;
-  gap:10px;
-  padding:10px 16px 10px 16px;
+  gap: 10px;
+  padding: 10px 16px 10px 16px;
+}
+.MA-CourseSingle-hero-icons div p {
+  color: #9d9d9d;
+}
 
+@media (max-width: 1200px) {
+  .MA-CourseSingle-Hero-card {
+    width: 200px;
+    height: 158px;
+    
+    top: 200px;
+    right: 200px;
+    border: 1px solid #EAEAEA ;
+    border-radius: 20px;
+  }
+  .MA-CourseSingle-Hero-card-part2 button{
+    background-color: #000000;
+  }
 }
-.MA-CourseSingle-hero-icons div p{
-  color: #9D9D9D;
-}
+
+
+
