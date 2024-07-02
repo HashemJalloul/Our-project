@@ -26,6 +26,10 @@
     width: 80%;
     margin: 0 auto;
   }
+  .MA-BasicBreadcrumbs {
+    height: 100px;
+    align-items: flex-start;
+  }
 }
 
 .type {
