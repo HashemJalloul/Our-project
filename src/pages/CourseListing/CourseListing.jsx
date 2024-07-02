@@ -2,8 +2,8 @@ import BasicBreadcrumbs from './../../components/BasicBreadcrumbs/BasicBreadcrum
 import './CourseListing.css'
 import Courses from './../../components/Courses/Courses'
 import searchicon from './../../../public/imges/searchinput2.png'
-import view from './../../../public/imges/view.png'
-import list from './../../../public/imges/list.png'
+import view from '/imges/view.png'
+import list from '/imges/list.png'
 import Sidebar from '../../components/Sidebar/Sidebar'
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";

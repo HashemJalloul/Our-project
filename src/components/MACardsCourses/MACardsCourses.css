@@ -123,3 +123,33 @@ hr {
         width: 290px;
     }
 }
+
+@media (max-width:588px){
+    .MA-cards-c {
+        width: 350px;
+        /* height: 492px; */
+        border-radius: 20px;
+        border: 1px solid #eaeaea;
+        transition: .5s;
+    }
+    .MA-cards-c:hover {
+        box-shadow: 0px 2px 10px 0px #0000001A;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .MA-cards-c:hover .ek-lms {
+        color:  #FF782D;
+    }
+}
+
+
+@media (max-width:488px){
+    .MA-cards-c {
+        width: 250px;
+        /* height: 492px; */
+        border-radius: 20px;
+        border: 1px solid #eaeaea;
+        transition: .5s;
+    }
+}
+

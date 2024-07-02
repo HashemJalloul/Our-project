@@ -104,7 +104,7 @@
   }
 
   .MA-courses-sidebar.open {
-      width: 250px;
+      width: 180px;
       height: max-content;
   }
 
@@ -115,6 +115,15 @@
   
 }
 
-
+@media (max-width: 711px) {
+  
+  .MA-courses-sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  width: 100px;
+  
+  }
+}
 
 
