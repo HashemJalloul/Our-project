@@ -59,13 +59,6 @@
         justify-content: center;
         align-items: center;
     }
-    .MA-top-courses {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        margin-bottom: 70px;
-    } 
     .MA-Cousres {
         margin-left: 0;
         margin-right: 0;
@@ -77,4 +70,15 @@
         margin-left: 200px;
         margin-right: 200px;
     }
+   
+}
+
+@media (max-width : 1200px) {
+    .MA-top-courses {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 70px;
+    } 
 }

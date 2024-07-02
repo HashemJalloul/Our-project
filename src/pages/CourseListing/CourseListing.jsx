@@ -12,7 +12,7 @@ export default function CourseListing() {
   return (
     <>
       <section className="MA-CourseListing">
-        <BasicBreadcrumbs />
+        <BasicBreadcrumbs name="Course"/>
       </section>
       <section className="MA-Cousres">
         <div className="MA-courses-partone">

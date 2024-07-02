@@ -59,5 +59,9 @@
 }
 
 
-
+@media (max-width: 720px) {
+  .MA-courses-sidebar {
+    display: none;
+}
+}
 

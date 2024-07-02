@@ -12,12 +12,13 @@ import SidebarBlog from '../../components/SidebarBlog/SidebarBlog'
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 import BasicBreadcrumbs from './../../components/BasicBreadcrumbs/BasicBreadcrumbs'
+import { Link } from 'react-router-dom'
 import './BlogListing.css'
 export default function BlogListing() {
   return (
     <>
       <section className="ek-BlogListing">
-        <BasicBreadcrumbs />
+        <BasicBreadcrumbs name="Blog"/>
       </section>
       <section className="ek-Blogs">
         <div className="ek-blogs-partone">
@@ -30,85 +31,90 @@ export default function BlogListing() {
               <img src={list} alt="" />
             </div>
           </div>
-          <div className='SK-LatestArticles-cards'>
-                <Card className='SK-LatestArticles-card' >
+          <div className='eK-LatestArticles-cards'>
+              <Link to="/BlogSingle">  <Card className='eK-LatestArticles-card' >
                     <Card.Img variant="top" src={article1} className='SK-Card-Image'/>
-                    <Card.Body className='SK-CardArticle-Body'>
-                        <Card.Title className='SK-CardArticle-Title'>
+                    <Card.Body className='eK-CardArticle-Body'>
+                        <Card.Title className='eK-CardArticle-Title'>
                             <h4>Best LearnPress WordPress Theme Collection For 2023</h4>
                         </Card.Title>
-                        <div className='SK-CardArticle-Date'>
+                        <div className='eK-CardArticle-Date'>
                             <img src="./../../../public/imges/date.png" alt="Date Icon" />
                             <p>Jan 24, 22023</p>
                         </div>
                         <p>Looking for an amazing & well-functional LearnPress WordPress Theme?...</p>
                     </Card.Body>
-                </Card>
-                <Card className='SK-LatestArticles-card'>
+                </Card></Link>
+
+                <Link to="/BlogSingle">
+                <Card className='eK-LatestArticles-card'>
                     <Card.Img variant="top" src={article2} className='SK-Card-Image'/>
-                    <Card.Body className='SK-CardArticle-Body'>
-                        <Card.Title className='SK-CardArticle-Title'>
+                    <Card.Body className='eK-CardArticle-Body'>
+                        <Card.Title className='eK-CardArticle-Title'>
                             <h4>Best LearnPress WordPress Theme Collection For 2023</h4>
                         </Card.Title>
-                        <div className='SK-CardArticle-Date'>
+                        <div className='eK-CardArticle-Date'>
                             <img src="./../../../public/imges/date.png" alt="Date Icon" />
                             <p>Jan 24, 22023</p>
                         </div>
                         <p>Looking for an amazing & well-functional LearnPress WordPress Theme?...</p>
                     </Card.Body>
                 </Card>
-                <Card className='SK-LatestArticles-card'>
-                    <Card.Img variant="top" src={article3} className='SK-Card-Image'/>
-                    <Card.Body className='SK-CardArticle-Body'>
-                        <Card.Title className='SK-CardArticle-Title'>
+                </Link>
+             <Link to="/BlogSingle">
+             <Card className='eK-LatestArticles-card'>
+                    <Card.Img variant="top" src={article3} className='eK-Card-Image'/>
+                    <Card.Body className='eK-CardArticle-Body'>
+                        <Card.Title className='eK-CardArticle-Title'>
                             <h4>Best LearnPress WordPress Theme Collection For 2023</h4>
                         </Card.Title>
-                        <div className='SK-CardArticle-Date'>
+                        <div className='eK-CardArticle-Date'>
                             <img src="./../../../public/imges/date.png" alt="Date Icon" />
                             <p>Jan 24, 22023</p>
                         </div>
                         <p>Looking for an amazing & well-functional LearnPress WordPress Theme?...</p>
                     </Card.Body>
                 </Card>
-                <Card className='SK-LatestArticles-card'>
+             </Link>
+              <Link to="/BlogSingle">  <Card className='eK-LatestArticles-card'>
                     <Card.Img variant="top" src={article6} className='SK-Card-Image'/>
-                    <Card.Body className='SK-CardArticle-Body'>
-                        <Card.Title className='SK-CardArticle-Title'>
+                    <Card.Body className='eK-CardArticle-Body'>
+                        <Card.Title className='eK-CardArticle-Title'>
                             <h4>Best LearnPress WordPress Theme Collection For 2023</h4>
                         </Card.Title>
-                        <div className='SK-CardArticle-Date'>
+                        <div className='eK-CardArticle-Date'>
                             <img src="./../../../public/imges/date.png" alt="Date Icon" />
                             <p>Jan 24, 22023</p>
                         </div>
                         <p>Looking for an amazing & well-functional LearnPress WordPress Theme?...</p>
                     </Card.Body>
-                </Card>
-                <Card className='SK-LatestArticles-card'>
+                </Card></Link>
+                <Link to="/BlogSingle"><Card className='eK-LatestArticles-card'>
                     <Card.Img variant="top" src={article5} className='SK-Card-Image'/>
-                    <Card.Body className='SK-CardArticle-Body'>
-                        <Card.Title className='SK-CardArticle-Title'>
+                    <Card.Body className='eK-CardArticle-Body'>
+                        <Card.Title className='eK-CardArticle-Title'>
                             <h4>Best LearnPress WordPress Theme Collection For 2023</h4>
                         </Card.Title>
-                        <div className='SK-CardArticle-Date'>
+                        <div className='eK-CardArticle-Date'>
                             <img src="./../../../public/imges/date.png" alt="Date Icon" />
                             <p>Jan 24, 22023</p>
                         </div>
                         <p>Looking for an amazing & well-functional LearnPress WordPress Theme?...</p>
                     </Card.Body>
-                </Card>
-                <Card className='SK-LatestArticles-card'>
+                </Card></Link>
+               <Link to="/BlogSingle"> <Card className='eK-LatestArticles-card'>
                     <Card.Img variant="top" src={article4} className='SK-Card-Image'/>
-                    <Card.Body className='SK-CardArticle-Body'>
-                        <Card.Title className='SK-CardArticle-Title'>
+                    <Card.Body className='eK-CardArticle-Body'>
+                        <Card.Title className='eK-CardArticle-Title'>
                             <h4>Best LearnPress WordPress Theme Collection For 2023</h4>
                         </Card.Title>
-                        <div className='SK-CardArticle-Date'>
+                        <div className='eK-CardArticle-Date'>
                             <img src="./../../../public/imges/date.png" alt="Date Icon" />
                             <p>Jan 24, 22023</p>
                         </div>
                         <p>Looking for an amazing & well-functional LearnPress WordPress Theme?...</p>
                     </Card.Body>
-                </Card>
+                </Card></Link>
             </div>
             <div className="MA-pagination-courses">
             <Stack spacing={2}>

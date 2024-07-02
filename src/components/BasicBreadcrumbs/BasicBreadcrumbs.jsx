@@ -1,9 +1,8 @@
+/* eslint-disable react/prop-types */
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
-import Stack from '@mui/material/Stack';
-import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import './BasicBreadcrumbs.css'
 
 function handleClick(event) {
@@ -11,7 +10,7 @@ function handleClick(event) {
   console.info('You clicked a breadcrumb.');
 }
 
-export default function BasicBreadcrumbs() {
+export default function BasicBreadcrumbs(props) {
   
   return (
     <div role="presentation" onClick={handleClick} className='MA-BasicBreadcrumbs' >
@@ -26,9 +25,9 @@ export default function BasicBreadcrumbs() {
           to="/Courses"
           style={{color:"#555555"}}
         >
-          Course
+          {props.name}
         </Link>
-        {/* <Typography color="text.primary">Breadcrumbs</Typography> */}
+        <Typography className='type' color="text.primary">{props.type}</Typography>
       </Breadcrumbs>
     </div>
   );
