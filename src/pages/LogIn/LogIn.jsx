@@ -16,6 +16,7 @@ const LogIn = () => {
     };
 
     return (
+      <main className='login-page-container'>
         <div className="login-container">
             <form className="login-form" onSubmit={handleSubmit}>
                 <h2>Login</h2>
@@ -48,7 +49,7 @@ const LogIn = () => {
                 <button type="submit" className="login-button">Login</button>
                 <a href="#" className="forgot-password">Lost your password?</a>
             </form>
-        </div>
+        </div></main>
     );
 };
 

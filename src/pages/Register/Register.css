@@ -1,6 +1,6 @@
-/* src/styles.css */
+/* src/Styles2.css */
 
-.login-page-container {
+.register-page-container {
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -11,8 +11,9 @@
 .login-container {
     background-color: #fff;
     padding: 40px;
-    border-radius: 20px; /* Adjusting border radius */
-    width: 500px; /* Fixed width for exact match */
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
     box-sizing: border-box;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -92,7 +93,6 @@
 @media (max-width: 768px) {
     .login-container {
         padding: 20px;
-        width: calc(100% - 40px); /* Responsive width */
     }
 
     .login-form h2 {
