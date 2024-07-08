@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.MA-Tabs-Coures-single {
+  background-color: #F5F5F5;
+  width: 690px;
+  /* height: 448px; */
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+
+
+.MA-TabCourseSingle-part2 {
+  width: 604px;
+  height: 336px;
+  
+  
+}
+
+.MA-Tabs-Coures-single .MA-TAB-overview-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 654px;
+    /* padding: 30px; */
+}
+.MA-Tabs-Coures-single .MA-TAB-overview-content .MA-TAB-overview-content1{
+   margin: 14px 0;
+   
+}
+.MA-tab-Curriculum{
+  width: 650px;
+}
+
+.MA-tab-Curriculum .MA-tab-Curriculum-content{
+  width: 630px;
+  /* padding: 30px; */
+  /* background-color: black; */
+  
+}
+.MA-tab-Curriculum-content-Accordion1{
+
+  
+  border-radius: 8px;
+ 
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.MA-Accordion1{
+  width: 650px;
+  /* margin-right: 5px; */
+  
+  
+  
+}
+.MA-Accordion1 span{
+  width: 400px;
+}
+.MA-Accordion1-part2 {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  /* margin-left: 5px; */
+}
+
+
+/* ------------------instractor-------------------- */
+.MA-tab-Instructor-part1{
+  width:  640px;
+/* height: 189px; */
+gap: 24px;
+opacity: 0px;
+/* background-color: aqua; */
+display: flex;
+
+
+}
+.MA-tab-Instructor-part1 img{
+  width: 140px;height: 140px;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 10px;
+ 
+}
+.MA-tab-Instructor-part1 h4{
+  padding-top: 7px;
+}
+.MA-tab-Instructor-part2{
+padding: 10px 0;
+}

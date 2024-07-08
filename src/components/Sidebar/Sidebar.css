@@ -1,0 +1,129 @@
+*{
+  list-style: none;
+}
+.MA-courses-sidebar {
+    width: 270px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.MA-sidebar-content{
+   display: block; 
+}
+.MA-side-category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.MA-side-category .MA-side-1 input {
+  margin-right: 4px;
+}
+.MA-courses-sidebar p{
+  display: inline;
+}
+.MA-sidebar-course-category {
+    display: flex;
+    flex-direction: column;
+}
+.MA-sidebar-Instructors {
+    display: flex;
+    flex-direction: column;
+}
+  
+.MA-sidebar-price{
+    display: flex;
+    flex-direction: column;
+}
+
+.MA-sidebar-Review{
+    display: flex;
+    flex-direction: column;
+}
+
+.MA-sidebar-Level{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.MA-side-1-star img {
+  width: 16px;
+}
+
+.MA-side-1-star {
+  display: flex;
+  align-items: center;
+}
+.MA-side-1-star .star  {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.toggle-button {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+  .MA-courses-sidebar {
+   /* width: 100px;
+    background-color: #ebe2e2;
+    padding: 10px;
+    position: relative;*/
+    
+    
+
+    position: relative;
+    padding: 5px;
+    width: 100px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    transition: width 0.3s ease;
+
+  }
+  
+
+  .MA-sidebar-content{
+    display: none; 
+ }
+ 
+
+  .toggle-button {
+      display: block;
+  }
+
+  .MA-courses-sidebar.open {
+      width: 180px;
+      height: max-content;
+  }
+
+  .MA-courses-sidebar.open .MA-sidebar-content  {
+      display: block;
+  }
+
+  
+}
+
+@media (max-width: 711px) {
+  
+  .MA-courses-sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  width: 100px;
+  
+  }
+}
+
+
