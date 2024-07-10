@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <>
             <footer className="footer">
-                <Container className='footerContainer'>
+                <Container  className='footerContainer'>
                     <div className='ek-container'>
                         <div className="ek-footer-part-one">
                             <div className="ek-footerContent-1">
