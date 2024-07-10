@@ -6,8 +6,6 @@ import { Link } from 'react-router-dom';
 import CardsCourses from './../../components/CardsCourses/CardsCourses'
 import allCardsCourses from './../../Data/AllCardsCourses'
 import infocards from './../../Data/InfoCards'
-import latestArticles from './../../components/LatestArticles/LatestArticles'
-import LatestArticles from './../../components/LatestArticles/LatestArticles';
 
 
 export default function Home() {
@@ -56,7 +54,6 @@ export default function Home() {
         <section className='ek-info-wrapper'>
             {info}
         </section>
-        <LatestArticles />
       </Container>
     </>
   )
