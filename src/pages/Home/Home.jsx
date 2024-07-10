@@ -1,3 +1,8 @@
+import GrowUs from '../../components/GrowUs/GrowUs'
+import Banner2 from '../../components/Banner2/Banner2'
+import StudentFeedbacks from '../../components/StudentFeedbacks/StudentFeedbacks'
+import Banner3 from '../../components/Banner3/Banner3'
+import LatestArticles from '../../components/LatestArticles/LatestArticles'
 import './Home.css'
 import Category from '../../components/Category/Category'
 import Count from './../../components/Count/Count'
@@ -9,6 +14,7 @@ import infocards from './../../Data/InfoCards'
 
 
 export default function Home() {
+
   const cardsCourses = allCardsCourses.map(card => {
     return <CardsCourses key={card.id} image={card.image} head4={card.head4} price={card.price} Free={card.Free} />
   })
@@ -55,6 +61,12 @@ export default function Home() {
             {info}
         </section>
       </Container>
+      <GrowUs />
+      <Banner2 />
+      <StudentFeedbacks />
+      <Banner3 />
+      <LatestArticles />
     </>
+
   )
 }

@@ -1,0 +1,233 @@
+.SK-Banner3 {
+    width: 100%;
+    height: 250px;
+    background-image: url('./../../../public/imges/Rectangle 143.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+}
+.SK-Banner3-content {
+    display: flex;
+    align-items: center;
+}
+.SK-Banner3-content .SK-Banner3Image1{
+    position: absolute;
+    top: 0;
+    left: 858px;
+}
+.SK-Banner3-content .SK-Banner3Image2{
+    position: absolute;
+    top: 139px;
+    left: 16px;
+}
+.SK-Banner3-content .SK-Banner3-content2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+    padding: 65px 0px 65px 50px;
+    position: absolute;
+    top: 0;
+}
+.SK-Banner3-content2 h4 {
+    font-family: Exo;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding: 48px 0px;
+}
+.SK-Banner3-content2 .SK-StudentImage {
+    width: 120px;
+    height: 120px;
+    margin-right: 32px;
+}
+.SK-Banner3-content2 .SK-StudentImage:hover {
+    transform: scale(0.9);
+}
+.SK-Banner3-Buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 36px 0px;
+    margin-right: 32px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.SK-Banner3-Buttons .SK-Banner3-Button1{
+    width: 160px;
+    height: 48px;
+    padding: 10px 24px 10px 24px;
+    gap: 10px;
+    border-radius: 24px;
+    border: 2px solid #FF782D;
+    background-color: transparent;
+    margin-right: 20px;
+}
+.SK-Banner3-Buttons .SK-Banner3-Button1 a {
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FF782D;
+}
+.SK-Banner3-Buttons .SK-Banner3-Button2 {
+    width: 219px;
+    height: 48px;
+    padding: 10px 24px 10px 24px;
+    gap: 10px;
+    border-radius: 24px;
+    border: 0;
+    background-color: #FF782D;
+}
+.SK-Banner3-Buttons .SK-Banner3-Button2 a {
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.SK-Banner3-Buttons .SK-Banner3-Button1:hover,
+.SK-Banner3-Buttons .SK-Banner3-Button1:focus{
+    background-color: #ee8a54;
+    border: 0;
+}
+.SK-Banner3-Buttons .SK-Banner3-Button1 a:hover,
+.SK-Banner3-Buttons .SK-Banner3-Button1 a:focus{
+    color: #FFFFFF;
+}
+.SK-Banner3-Buttons .SK-Banner3-Button2:hover,
+.SK-Banner3-Buttons .SK-Banner3-Button2:focus{
+    background-color: #ee8a54;
+}
+
+@media screen and (min-width: 1201px) {
+    .SK-Banner3-content .SK-Banner3Image1{
+        left: 670px;
+    }
+}
+
+@media (min-width: 1025px) and  (max-width: 1200px) {
+    .SK-Banner3-content .SK-Banner3Image1{
+        left: 500px;
+    }
+}
+
+@media (min-width: 769px) and  (max-width: 1024px) {
+    .SK-Banner3 .SK-Banner3-content2 .SK-StudentImage {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+    }
+    .SK-Banner3-Buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 45px;
+        gap: 10px;
+    }
+    .SK-Banner3-content2 h4 {
+        font-size: 18px;
+    }
+    .SK-Banner3-Buttons .SK-Banner3-Button1 {
+        margin-right: 0;
+    }
+    .SK-Banner3-content .SK-Banner3Image1{
+        left: 500px;
+    }
+}
+
+@media (min-width: 481px) and  (max-width: 768px) {
+    .SK-Banner3-content2 h4 {
+        font-size: 16px;
+        padding: 0;
+    }
+    .SK-Banner3-content .SK-Banner3-content2 {
+        padding: 0;
+        padding-top: 30px;
+    }
+    .SK-Banner3-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .SK-Banner3 .SK-Banner3-content2 .SK-StudentImage {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    .SK-Banner3-Buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        margin-right: 120px;
+        margin-top: 45px ;
+    }
+    .SK-Banner3-Buttons .SK-Banner3-Button1 {
+        width: 125px;
+        margin: 0;
+    }
+    .SK-Banner3-Buttons .SK-Banner3-Button1 a {
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .SK-Banner3-Buttons .SK-Banner3-Button2 {
+        width: 190px;
+    }
+    .SK-Banner3-Buttons .SK-Banner3-Button2 a {
+        font-weight: 400;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 320px) and  (max-width: 480px) {
+    .SK-Banner3 .SK-Banner3-content2 .SK-StudentImage {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    .SK-Banner3-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .SK-Banner3-content .SK-Banner3-content2 {
+        padding: 0;
+        padding-top: 30px;
+    }
+    .SK-Banner3-content2 h4 {
+        font-size: 14px;
+        padding: 0;
+    }
+    .SK-Banner3-Buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        margin-right: 56px;
+        margin-top: 45px;
+    }
+    .SK-Banner3-Buttons .SK-Banner3-Button1 {
+        width: 125px;
+        margin: 0;
+    }
+    .SK-Banner3-Buttons .SK-Banner3-Button1 a {
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .SK-Banner3-Buttons .SK-Banner3-Button2 {
+        width: 180px;
+    }
+    .SK-Banner3-Buttons .SK-Banner3-Button2 a {
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

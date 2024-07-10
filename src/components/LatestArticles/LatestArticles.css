@@ -112,7 +112,10 @@
     }
     .SK-LatestArticles-cards {
         justify-content: center;
+
         flex-wrap: nowrap;
+
+
     }
 }
 

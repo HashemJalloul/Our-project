@@ -41,6 +41,7 @@ function CollapsibleExample() {
 
 </Container>
 </Navbar>
+
     );
 }
 
