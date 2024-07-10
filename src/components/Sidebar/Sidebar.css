@@ -1,0 +1,67 @@
+*{
+  list-style: none;
+}
+.MA-courses-sidebar {
+    width: 270px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.MA-side-category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.MA-side-category .MA-side-1 input {
+  margin-right: 4px;
+}
+.MA-courses-sidebar p{
+  display: inline;
+}
+.MA-sidebar-course-category {
+    display: flex;
+    flex-direction: column;
+}
+.MA-sidebar-Instructors {
+    display: flex;
+    flex-direction: column;
+}
+  
+.MA-sidebar-price{
+    display: flex;
+    flex-direction: column;
+}
+
+.MA-sidebar-Review{
+    display: flex;
+    flex-direction: column;
+}
+
+.MA-sidebar-Level{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.MA-side-1-star img {
+  width: 16px;
+}
+
+.MA-side-1-star {
+  display: flex;
+  align-items: center;
+}
+.MA-side-1-star .star  {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+
+@media (max-width: 720px) {
+  .MA-courses-sidebar {
+    display: none;
+}
+}
+

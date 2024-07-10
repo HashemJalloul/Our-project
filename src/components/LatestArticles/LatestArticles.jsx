@@ -1,7 +1,7 @@
 import { Container, Row } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card'
 import article1 from './../../../public/imges/Article1.png'
-import article2 from './../../../public/imges/Article2.png'
+import article2 from './../../../public/imges/article2.png'
 import article3 from './../../../public/imges/Article3.png'
 import './LatestArticles.css'
 
@@ -26,7 +26,8 @@ export default function LatestArticles() {
                             <h4>Best LearnPress WordPress Theme Collection For 2023</h4>
                         </Card.Title>
                         <div className='SK-CardArticle-Date'>
-                            <img src="./../../../public/imges/Date Icon.svg" alt="Date Icon" />
+
+                            <img src="./../../../public/imges/date.png" alt="Date Icon" />
                             <p>Jan 24, 22023</p>
                         </div>
                         <p>Looking for an amazing & well-functional LearnPress WordPress Theme?...</p>
@@ -39,7 +40,9 @@ export default function LatestArticles() {
                             <h4>Best LearnPress WordPress Theme Collection For 2023</h4>
                         </Card.Title>
                         <div className='SK-CardArticle-Date'>
-                            <img src="./../../../public/imges/Date Icon.svg" alt="Date Icon" />
+
+                            <img src="./../../../public/imges/date.png" alt="Date Icon" />
+
                             <p>Jan 24, 22023</p>
                         </div>
                         <p>Looking for an amazing & well-functional LearnPress WordPress Theme?...</p>
@@ -52,13 +55,16 @@ export default function LatestArticles() {
                             <h4>Best LearnPress WordPress Theme Collection For 2023</h4>
                         </Card.Title>
                         <div className='SK-CardArticle-Date'>
-                            <img src="./../../../public/imges/Date Icon.svg" alt="Date Icon" />
+
+                            <img src="./../../../public/imges/date.png" alt="Date Icon" />
+
                             <p>Jan 24, 22023</p>
                         </div>
                         <p>Looking for an amazing & well-functional LearnPress WordPress Theme?...</p>
                     </Card.Body>
                 </Card>
             </div>
+
 
         </section>
        </Row>
