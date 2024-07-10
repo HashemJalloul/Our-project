@@ -5,12 +5,14 @@
 }
 .MA-CourseSingle {
   position: relative;
+  
 }
 .MA-CourseSingle-Hero {
   width: 100%;
   /* height: 250px; */
   background-color: #000000;
   padding: 50px 0;
+  
 }
 .MA-CourseSingle-Hero-details {
   /* background-color: aqua; */
@@ -173,3 +175,15 @@
 
 
 
+@media(max-width:1000px)
+{
+  .MA-CourseSingle-Hero-card {
+    width: 100px;
+    height: 138px;
+    
+    top: 240px;
+    right: 100px;
+    border: 1px solid #EAEAEA ;
+    border-radius: 20px;
+  }
+}
