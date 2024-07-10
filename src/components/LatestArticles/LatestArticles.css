@@ -1,0 +1,171 @@
+.SK-LatestArticles {
+    width: 100%;
+    height: 650px;
+    margin-bottom: 90px;
+}
+.SK-LatestArticles-content {
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+    margin-bottom: 34px;
+}
+.SK-LatestArticles-title {
+    flex: 1;
+}
+.SK-LatestArticles-title h2 {
+    font-family: Exo;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #000000;
+}
+.SK-LatestArticles-title p {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;
+}
+#SK-LatestArticles-Button {
+    width: 138px;
+    height: 48px;
+    padding: 10px 24px 10px 24px;
+    border: 2px solid #9D9D9D;
+    border-radius: 24px;
+    background-color: transparent;
+    gap: 10px;
+}
+#SK-LatestArticles-Button a {
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+#SK-LatestArticles-Button:hover,
+#SK-LatestArticles-Button:focus{
+    background-color: #FF782D;
+    border: 0;
+}
+#SK-LatestArticles-Button a:hover,
+#SK-LatestArticles-Button a:focus{
+    color: #FFFFFF;
+}
+.SK-LatestArticles-cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 24px;
+}
+.SK-LatestArticles-card {
+    width: 410px;
+    height: 440px;
+    border-radius: 20px;
+    border: 1px solid #EAEAEA;
+    transition: 0.5s ease;
+}
+.SK-LatestArticles-card:hover,
+.SK-LatestArticles-card:focus{
+    transform: translate(0, -16px);
+    box-shadow: 0px 4px 20px 0px #0000001A;
+}
+.SK-CardArticle-Title h4 {
+    font-family: Exo;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.SK-CardArticle-Title h4:hover,
+.SK-CardArticle-Title h4:focus{
+    color: #FF782D;
+}
+.SK-CardArticle-Date {
+    display: flex;
+    justify-content: flex-start;
+    gap: 9.33px;
+}
+.SK-CardArticle-Date img {
+    width: 13.33px;
+    height: 14.67px;
+    margin-top: 5px;
+}
+.SK-CardArticle-Date p {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+}
+.SK-CardArticle-Body p {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;
+}
+
+@media screen and (min-width: 1201px) {
+    .SK-LatestArticles {
+        margin-bottom: 520px;
+    }
+    .SK-LatestArticles-cards {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1025px) and  (max-width: 1200px) {
+    .SK-LatestArticles-title h2 {
+        font-size: 28px;
+    }
+    .SK-LatestArticles-cards {
+        gap: 15px;
+    }
+    .SK-LatestArticles {
+        margin-bottom: 520px;
+    }
+    .SK-LatestArticles-cards {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 769px) and  (max-width: 1024px) {
+    .SK-LatestArticles-title h2 {
+        font-size: 25px;
+    }
+    .SK-LatestArticles {
+        margin-bottom: 600px;
+    }
+    .SK-LatestArticles-cards {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 481px) and  (max-width: 768px) {
+    .SK-LatestArticles-title h2 {
+        font-size: 23px;
+    }
+    .SK-LatestArticles {
+        margin-bottom: 995px;
+    }
+    .SK-LatestArticles-cards {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 320px) and  (max-width: 480px) {
+    .SK-LatestArticles-title h2 {
+        font-size: 20px;
+    }
+    .SK-LatestArticles {
+        margin-bottom: 1050px;
+    }
+    #SK-LatestArticles-Button {
+        width: 115px;
+    }
+    #SK-LatestArticles-Button a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

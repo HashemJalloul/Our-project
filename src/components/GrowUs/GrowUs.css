@@ -1,0 +1,240 @@
+.SK-GrowUs {
+    width: 100%;
+    height: 469px;
+    margin-block: 90px;
+}
+.SK-GrowUs-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.SK-GrowUs-Image {
+    flex: 1 1 0%;
+    margin-right: 125px;
+    transition: 0.5s ease;
+}
+.SK-GrowUs-Image .SK-GrowUs-VectorImage {
+    width: 644px;
+    height: 469px;
+}
+.SK-GrowUs-Image .SK-GrowUs-VectorImage:hover {
+    transform: scale(0.9);
+}
+.SK-GrowUs-content2 {
+   flex: 1 1 0%;
+}
+.SK-GrowUs-content2 h2 {
+    font-family: Exo;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #000000;
+    padding-right: 200px;
+    margin-bottom: 24px;
+}
+.SK-GrowUs-content3 p {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;
+    padding-right: 4px;
+}
+.SK-GrowUs-CheckBoxes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+.SK-GrowUs-CheckBoxes .SK-GrowUs-CheckBox {
+    display: flex;
+    justify-content: flex-start;
+    width: 117px;
+    height: 27px;
+    gap: 8px;
+    margin-top: 12px;
+}
+#SK-GrowUs-CheckBox-Active {
+    margin-top: 0;
+}
+.SK-GrowUs-CheckBox .SK-GrowUs-CheckBoxImage {
+    width: 11.73px;
+    height: 8.94px;
+    margin-top: 9px;
+}
+.SK-GrowUs-CheckBox p {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+.SK-GrowUs-content2 .SK-GrowUs-Button {
+    width: 177px;
+    height: 48px;
+    padding: 10px 24px 10px 24px;
+    gap: 10px;
+    border: 0;
+    border-radius: 24px;
+    background-color: #FF782D;
+    margin-top: 20px;
+}
+.SK-GrowUs-content2 .SK-GrowUs-Button a {
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.SK-GrowUs-content2 .SK-GrowUs-Button:hover,
+.SK-GrowUs-content2 .SK-GrowUs-Button:focus{
+    background-color: #ee8a54;
+}
+
+
+@media (min-width: 1400px) and  (max-width: 1440px) {
+    .SK-GrowUs {
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .SK-GrowUs-Image {
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1025px) and  (max-width: 1200px){
+    .SK-GrowUs-Image {
+        margin-right: 20px;
+    }
+    .SK-GrowUs-content .SK-GrowUs-Image img {
+        width: 490px;
+        height: 315px;
+    }
+    .SK-GrowUs-content2 h2{
+        font-size: 28px;
+    }
+}
+@media (min-width: 769px) and  (max-width: 1024px){
+    .SK-GrowUs-Image {
+        margin-bottom: 20px;
+    }
+    .SK-GrowUs-Image {
+        margin: 0;
+    }
+    .SK-GrowUs-content {
+        justify-content: center;
+    }
+    .SK-GrowUs {
+        margin-bottom: 150px;
+    }
+    .SK-GrowUs-Image .SK-GrowUs-VectorImage {
+        width: 580px;
+    }
+    .SK-GrowUs-content2 {
+        margin-left: 20px;
+    }
+    .SK-GrowUs-content2 h2 {
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+    }
+    .SK-GrowUs-content2 p {
+        padding: 0;
+    }
+   
+}
+
+@media (max-width: 992px) {
+    .SK-GrowUs-Image {
+        margin: 0;
+    }
+    .SK-GrowUs-Image .SK-GrowUs-VectorImage {
+        width: 580px;
+    }
+    .SK-GrowUs {
+        margin-bottom: 150px;
+    }
+    .SK-GrowUs-content2 p {
+        padding: 0;
+        text-align: left;
+    }
+    .SK-GrowUs-CheckBoxes {
+       text-align: left;
+    }
+}
+
+@media (min-width: 481px) and  (max-width: 768px) {
+    .SK-GrowUs-content2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .SK-GrowUs-Image {
+        margin-bottom: 20px;
+    }
+    .SK-GrowUs-content .SK-GrowUs-Image img {
+        width: 400px;
+        height: 225px;
+    }
+    .SK-GrowUs-content2 h2{
+        font-size: 23px;
+        padding: 0;
+        margin: 0;
+    }
+    .SK-GrowUs-content2 p {
+        padding: 0;
+        text-align: center;
+    }
+    .SK-GrowUs {
+        margin-bottom: 200px;
+    }
+    .SK-GrowUs-content2 .SK-GrowUs-Button {
+        width: 170px;
+    }
+    .SK-GrowUs-content2 .SK-GrowUs-Button a {
+        font-size: 16px;
+    }
+    .SK-GrowUs-CheckBoxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 320px) and  (max-width: 480px) {
+    .SK-GrowUs .SK-GrowUs-content2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .SK-GrowUs-Image {
+        margin-bottom: 10px;
+    }
+     .SK-GrowUs-content .SK-GrowUs-Image img {
+        width: 290px;
+        height: 225px;
+    }
+    .SK-GrowUs-content2 h2 {
+        font-size: 20px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .SK-GrowUs {
+        margin-bottom: 220px;
+    }
+    .SK-GrowUs-content2 p {
+        padding: 0;
+        text-align: center;
+    }
+    .SK-GrowUs-CheckBoxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
