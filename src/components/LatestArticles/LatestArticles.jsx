@@ -1,7 +1,7 @@
 import { Container, Row } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card'
 import article1 from './../../../public/imges/Article1.png'
-import article2 from './../../../public/imges/Article2.png'
+import article2 from './../../../public/imges/article2.png'
 import article3 from './../../../public/imges/Article3.png'
 import './LatestArticles.css'
 
