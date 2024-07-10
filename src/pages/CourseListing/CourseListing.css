@@ -1,0 +1,84 @@
+.MA-Cousres .MA-top-courses {
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .MA-Cousres .MA-top-courses .MA-title-courses-h1 {
+    font-family: "Exo";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: left;
+    width: 190px;
+    height: 43px;
+    opacity: 0px;
+}
+.MA-courses-partone {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchinput {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ .MA-top-courses .searchinput .searchIcon {
+    width: 20px;
+    position: absolute;
+    right: 79px;
+} 
+ .MA-top-courses .searchinput img {
+    width: 20px;
+} 
+ .MA-top-courses .searchinput input {
+    width: 270px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 4px;
+}
+
+.MA-Cousres {
+    margin-right: 315px;
+    margin-left: 315px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.MA-pagination-courses {
+    margin: 30px auto;
+}
+
+
+@media  (max-width: 992px) {
+    .MA-top-courses .searchinput input {
+        width: 200px;
+    }
+    .MA-courses-partone {
+        justify-content: center;
+        align-items: center;
+    }
+    .MA-Cousres {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1440px) {
+    .MA-Cousres {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+   
+}
+
+@media (max-width : 1200px) {
+    .MA-top-courses {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 70px;
+    } 
+}

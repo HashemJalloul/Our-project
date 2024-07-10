@@ -8,10 +8,9 @@ import Category from '../../components/Category/Category'
 import Count from './../../components/Count/Count'
 import { Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-import CardsCourses from '../../components/CardsCourses/CardsCourses'
+import CardsCourses from './../../components/CardsCourses/CardsCourses'
 import allCardsCourses from './../../Data/AllCardsCourses'
 import infocards from './../../Data/InfoCards'
-
 
 
 export default function Home() {

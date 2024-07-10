@@ -13,7 +13,8 @@ import Error from './pages/Error/Error.jsx';
 import FAQS from './pages/FAQS/FAQS.jsx';
 import CourseListing from './pages/CourseListing/CourseListing.jsx'
 
-
+import BlogListing from './pages/BlogListing/BlogListing.jsx';
+import BlogSingle from './pages/BlogSingle/BlogSingle.jsx'
 
 const router = createBrowserRouter([
   {
@@ -36,9 +37,18 @@ const router = createBrowserRouter([
       element: <Register />
     },
     {
-      path: "/CourseListing",
+      path: "/Courses",
       element: <CourseListing />,
     },
+
+    {
+      path: "/Blog",
+      element: <BlogListing />
+    }, 
+    {
+      path: "/BlogSingle",
+      element: <BlogSingle />
+
 
 
     {
@@ -48,6 +58,7 @@ const router = createBrowserRouter([
     {
       path: '*',
       element: <Error />
+
     }
    
 
