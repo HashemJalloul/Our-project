@@ -7,6 +7,14 @@ import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import Home from './pages/Home/Home.jsx';
 
 
+import LogIn from './pages/LogIn/LogIn.jsx'
+import Register from './pages/Register/Register.jsx';
+import Error from './pages/Error/Error.jsx';
+import FAQS from './pages/FAQS/FAQS.jsx';
+import CourseListing from './pages/CourseListing/CourseListing.jsx'
+
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -14,15 +22,39 @@ const router = createBrowserRouter([
 
     children: [
       {
-     path: "/Home",
-     element: <Home />,
-    },
-    {
+
+
      path: "/",
      element: <Home />,
     },
+    {
+      path: '/LogIn',
+      element: <LogIn />
+    },
+    {
+      path: '/Register',
+      element: <Register />
+    },
+    {
+      path: "/CourseListing",
+      element: <CourseListing />,
+    },
+
+
+    {
+      path: '/FAQS',
+      element: <FAQS />
+    },
+    {
+      path: '*',
+      element: <Error />
+    }
+   
 
     ]
+
+
+
   },
 
 ]);

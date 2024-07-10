@@ -1,0 +1,12 @@
+.error-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: min(40rem,75%);
+
+}
