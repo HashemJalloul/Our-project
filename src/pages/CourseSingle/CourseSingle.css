@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.MA-CourseSingle {
+  position: relative;
+  
+}
+.MA-CourseSingle-Hero {
+  width: 100%;
+  /* height: 250px; */
+  background-color: #000000;
+  padding: 50px 0;
+  
+}
+.MA-CourseSingle-Hero-details {
+  /* background-color: aqua; */
+
+  width: 917px;
+  margin: 0 auto;
+  height: max-content;
+}
+.MA-CourseSingle-hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: beige; */
+  width: max-content;
+}
+.MA-CourseSingle-hero-top .MA-CourseSingle-hero-paragraph {
+  width: 114px;
+  min-height: 40px;
+  padding: 8px, 12px, 8px, 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #555555;
+  color: white;
+  margin-right: 10px;
+}
+.MA-CourseSingle-hero-top .MA-CourseSingle-hero-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.MA-CourseSingle-hero-top .MA-CourseSingle-hero-text span {
+  margin: 0 3px;
+}
+
+.MA-CourseSingle-Hero-details h1 {
+  max-width: 650px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43.2px;
+  color: white;
+  margin: 20px 0;
+}
+
+.MA-CourseSingle-Hero-details .MA-CourseSingle-hero-icons {
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 563px;
+}
+.MA-CourseSingle-Hero-details .MA-CourseSingle-hero-icons div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MA-CourseSingle-Hero-details .MA-CourseSingle-hero-icons div img {
+  width: 13.33px;
+  height: 13.33px;
+}
+.MA-CourseSingle-Hero .MA-CourseSingle-Hero-card {
+  position: absolute;
+  width: 300px;
+  height: 258px;
+  /* background-color: aqua; */
+  top: 123px;
+  right: 170px;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+}
+.MA-CourseSingle-Hero
+  .MA-CourseSingle-Hero-card
+  .MA-CourseSingle-Hero-card-part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
+  padding: 25px 10.5px;
+}
+.MA-CourseSingle-Hero
+  .MA-CourseSingle-Hero-card
+  .MA-CourseSingle-Hero-card-part2
+  .MA-CourseSingle-Hero-card-part2-price {
+  padding: 0 20px;
+  display: flex;
+}
+.MA-CourseSingle-Hero-card-part2 button {
+  min-width: 127px;
+  height: 48px;
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  border-radius: 24px;
+  opacity: 0px;
+  background-color: #ff782d;
+  color: white;
+}
+.MA-CourseSingle-Hero .MA-CourseSingle-Hero-card img {
+  width: 100%;
+}
+
+.MA-CourseSingle-Detail {
+  width: 917.78125px;
+  /* height: 874px; */
+  gap: 40px;
+  margin: 0 auto;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 90px;
+
+  padding: 0px 440px 0px 0px;
+
+  opacity: 0px;
+}
+
+.MA-course-single-form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.MA-course-single-form .MA-course-single-form-input1 {
+  min-width: 250px;
+  margin-right: 15px;
+}
+.MA-course-single-form .MA-course-single-form-input2 {
+  min-width: 250px;
+  margin-left: 15px;
+}
+
+.MA-course-single-form-comments {
+  min-width: 604px;
+  min-height: 110px;
+  /* background-color: blueviolet; */
+  border: 1px solid #d3d0d0;
+  border-radius: 8px;
+  gap: 10px;
+  padding: 10px 16px 10px 16px;
+}
+.MA-CourseSingle-hero-icons div p {
+  color: #9d9d9d;
+}
+
+@media (max-width: 1200px) {
+  .MA-CourseSingle-Hero-card {
+    width: 200px;
+    height: 158px;
+    
+    top: 200px;
+    right: 200px;
+    border: 1px solid #EAEAEA ;
+    border-radius: 20px;
+  }
+  .MA-CourseSingle-Hero-card-part2 button{
+    background-color: #000000;
+  }
+}
+
+
+
+@media(max-width:1000px)
+{
+  .MA-CourseSingle-Hero-card {
+    width: 100px;
+    height: 138px;
+    
+    top: 240px;
+    right: 100px;
+    border: 1px solid #EAEAEA ;
+    border-radius: 20px;
+  }
+}

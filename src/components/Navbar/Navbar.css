@@ -143,3 +143,8 @@ h5:focus,
         display: none;
     }
 }
+@media (mهى-width: 990px) {
+   .d-flex {
+    display: flex;
+}
+    }

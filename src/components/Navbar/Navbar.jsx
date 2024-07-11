@@ -18,7 +18,7 @@ function CollapsibleExample() {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="SK-Navbar">
-            <Link className="SK-Link" to="/Home"><h5>Home</h5></Link>
+            <Link className="SK-Link" to="/"><h5>Home</h5></Link>
             <Link className="SK-Link" to="/Courses"><h5>Courses</h5></Link>
             <Link className="SK-Link" to="/Blog"><h5>Blog</h5></Link>
 
@@ -33,7 +33,8 @@ function CollapsibleExample() {
         </Nav>
 
         <div className="d-flex">
-            <Link className="SK-LinkLogin" to="/LogIn">Login / Register</Link>
+            <Link className="SK-LinkLogin" to="/LogIn">Login /</Link>
+            <Link className="SK-LinkLogin" to="/Register"> Register</Link>
             <img src="./../../../public/imges/Search.svg" alt="Search" className="SK-Search-icon" />
         </div>
 

@@ -1,0 +1,84 @@
+.MA-contact-page {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 40px;
+}
+
+.MA-contact-page .MA-Contact-part1 .MA-Contact-Part1-left {
+  
+  min-height:100px;max-width: 410px;
+}
+.MA-contact-page .MA-Contact-part1 {
+  width: 917px; 
+  margin: 0 auto;
+  
+  display: flex;
+}
+
+.MA-contact-page .MA-Contact-part1 .MA-Contact-map-container img {
+  width: 604px;
+  height: max-content;
+}
+
+
+.MA-Contact-contact-us{
+    display: flex;
+    flex-direction: column;
+    
+    width: 917px; 
+    margin: 0 auto;
+    margin-top: 60px;
+    min-height: 408px;
+    gap: 30px;
+}
+
+
+
+
+.MA-Contact-contact-us form {
+   
+  
+    width: 917px;
+    min-height: 293px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.MA-Contact-input-name-email{
+    
+    display: flex;
+    
+}
+.MA-Contact-input-name-email .MA-Contact-input-name{
+margin-right: 20px;
+}
+
+
+.MA-Contact-contact-us form input,
+.MA-Contact-contact-us form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.MA-Contact-contact-us form button {
+  padding: 10px 20px;
+  background: #FF782D;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  width:170px;
+height:48px;
+padding: 10px 24px 10px 24px;
+gap: 10px;
+border-radius: 24px;
+opacity: 0px;
+
+
+}
+

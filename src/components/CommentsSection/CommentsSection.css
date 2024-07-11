@@ -1,0 +1,55 @@
+/* src/components/CommentsSection.css */
+
+.comments-section {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+
+}
+
+.rating-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rating-score {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.score {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.stars {
+  font-size: 24px;
+  color: #ffc107;
+}
+
+.rating-count {
+  font-size: 14px;
+  color: #888;
+}
+
+.rating-bars {
+  width: 100%;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .rating-summary {
+    flex-direction: row;
+  }
+
+  .rating-bars {
+    margin-left: 20px;
+  }
+}
